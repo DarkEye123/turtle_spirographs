@@ -1,8 +1,8 @@
 import argparse
 import turtle
 from datetime import datetime
-from spirographs.Spiro import Spiro
-from spirographs.SpiroAnimator import SpiroAnimator
+from Spiro import Spiro
+from SpiroAnimator import SpiroAnimator
 import logging
 from PIL import Image
 

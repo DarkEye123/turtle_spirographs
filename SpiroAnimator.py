@@ -2,7 +2,7 @@ import math
 import logging
 import turtle
 import random
-from spirographs.Spiro import Spiro
+from Spiro import Spiro
 
 
 class SpiroAnimator:
