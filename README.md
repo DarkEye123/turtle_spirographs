@@ -7,9 +7,9 @@ Be sure you have added project path to PYTHONPATH variable
 written with python 3.6.2, but should be compatible with python 2
 
 usage:
-python3 spirograph.py --count 5
-python3 spirograph.py --sparams 300 10 0.9
-python3 spirograph.py -h
+ * python3 spirograph.py --count 5
+ * python3 spirograph.py --sparams 300 10 0.9
+ * python3 spirograph.py -h
 
 In program:
  * press <strong>r</strong> for restart
