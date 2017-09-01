@@ -35,7 +35,8 @@ class Spiro:
     def _generate_next_coods(self, R, k, l, angle):
         # my nice hypotrochoids and epitrochoids
         x = R * ((1 - k) * math.cos(angle) + l * k * math.cos((1 - k) * angle / k))
-        y = R * ((1 - k) * math.sin(angle) + l * k * math.sin((1 - k) * angle / k))
+        y = R * ((1 - k) * math.sin(angle) - l * k * math.sin((1 - k) * angle / k))
+        print(R, k, l, angle)
         return x, y
 
     def setparams(self, xc, yc, col, R, r, l):
